@@ -8,7 +8,9 @@
     "test": "karma start karma.conf.js"
   },
   "devDependencies": {
+    "@pixel2html/eslint-config": "^1.4.0",
     "coveralls": "^2.11.16",
+    "eslint": "^4.19.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.0.3",
     "gulp-cli": "^1.2.2",
@@ -44,5 +46,8 @@
   "bugs": {
     "url": "https://github.com/zoltantothcom/vanilla-js-accordion/issues"
   },
-  "homepage": "https://zoltantothcom.github.io/vanilla-js-accordion"
+  "homepage": "https://zoltantothcom.github.io/vanilla-js-accordion",
+  "eslintConfig": {
+    "extends": "@pixel2html/eslint-config"
+  }
 }
